@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samsu Group</title>
+</head>
+<body>
+    <h1>Samsu Meeting</h1>
+
+    <!-- Ordered List with Roman Numerals -->
+    <ol type="I">
+        <li>Introduction</li>
+        <li> Seclection of Memebers</li>
+        <li>Word of Encouragement</li>
+    </ol>
+
+    <!-- External Image from Pexels -->
+    <img src=" https://images.pexels.com/photos/2598630/pexels-photo-2598630.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" height="200" width="400" alt="Sample Image from Pexels">
+
+    <!-- Table of 5 Contacts -->
+    <table border="1">
+        <caption>Contact List</caption>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Mobile</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+            <td>John Doe</td>
+            <td>123 Main St</td>
+            <td>555-1234</td>
+            <td>john@example.com</td>
+            </tr>
+            <tr>
+            <td>Jane Smith</td>
+            <td>456 Elm St</td>
+            <td>555-5678</td>
+            <td>jane@example.com</td>
+            </tr>
+            <tr>
+            <td>Michael Brown</td>
+            <td>789 Oak St</td>
+            <td>555-8765</td>
+            <td>michael@example.com</td>
+            </tr>
+            <tr>
+            <td>Emily Davis</td>
+            <td>321 Pine St</td>
+            <td>555-4321</td>
+            <td>emily@example.com</td>
+            </tr>
+            <tr>
+            <td>David Wilson</td>
+            <td>654 Maple St</td>
+            <td>555-6789</td>
+            <td>david@example.com</td>
+            </tr>
+        </tbody>
+     </table>
+
+    <!-- Registration Form -->
+    <h2>Registration Form</h2>
+    <form action="/submit_registration" method="post">
+        <!-- Name Field -->
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+        <br><br>
+
+        <!-- Email Field -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        <br><br>
+
+        <!-- Password Field -->
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter your password" required>
+        <br><br>
+
+        <!-- Date Field -->
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required>
+        <br><br>
+
+        <!-- Dropdown Field -->
+        <label for="country">Country:</label>
+        <select id="country" name="country" required>
+            <option value="">Select your country</option>
+            <option value=" Kenya">Kenya</option>
+            <option value="Rwanda">Rwanda</option>
+            <option value="uganda">Uganda</option>
+            <option value="Tanzaniaia">Tanzania</option>
+        </select>
+        <br><br>
+
+        <!-- Radio Buttons -->
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female" required>
+        <label for="female">Female</label>
+        <input type="radio" id="other" name="gender" value="other" required>
+        <label for="other">Other</label>
+        <br><br>
+
+        <!-- Checkboxes -->
+        <label>Interests:</label>
+        <input type="checkbox" id="coding" name="interests" value="coding">
+        <label for="coding">Coding</label>
+        <input type="checkbox" id="music" name="interests" value="music">
+        <label for="music">Music</label>
+        <input type="checkbox" id="sports" name="interests" value="sports">
+        <label for="sports">Sports</label>
+        <br><br>
+
+        <!-- Submit Button -->
+        <input type="submit" value="Register">
+    </form>
+    </body>
+</html>
